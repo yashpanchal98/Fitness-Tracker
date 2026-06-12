@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: api-gateway
+  security:
+    user:
+      name: admin
+      password: password123
+      
+  config:
+    import: "optional:configserver:http://localhost:8888" 
